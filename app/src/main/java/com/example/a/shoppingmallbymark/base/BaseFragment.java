@@ -18,6 +18,7 @@ import android.view.ViewGroup;
  * 用户中心：UserFragemnt
  * 都要继承该类
  */
+//test git
 
 public abstract class BaseFragment extends Fragment {
 
