@@ -14,13 +14,20 @@ import static android.content.ContentValues.TAG;
  */
 
 
-
+/**
+ * 继承父类fragment的一些方法，包括initDate and  initView
+ */
 public class CommunityFragment extends BaseFragment {
 
     private TextView textView;
     /*
     * 父类为抽象类，子类必须强制实现该方法
     * */
+
+    /**
+     * 设置页面里面的一些控件
+     * @return
+     */
     @Override
     public View initView() {
         Log.e(TAG ,"主页面的Fragment的UI被初始化了" );
@@ -30,6 +37,9 @@ public class CommunityFragment extends BaseFragment {
         return textView;
     }
 
+    /**
+     * 设置控件里面的数据
+     */
     @Override
     public void initDate() {
         Log.e(TAG ,"主页面的Fragment的数据被初始化了" );

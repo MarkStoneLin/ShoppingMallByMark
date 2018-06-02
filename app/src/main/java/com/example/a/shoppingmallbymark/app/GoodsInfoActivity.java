@@ -159,6 +159,11 @@ public class GoodsInfoActivity extends Activity implements View.OnClickListener 
 
     }
 
+    /**
+     * 商品详情展示网页
+     * 网页为个人主页
+     * @param product_id
+     */
     private void setWebViewData(String product_id) {
         if(product_id != null){
             wbGoodInfoMore.loadUrl("http://www.markfrozen.com:8080/myweb/resume.html");

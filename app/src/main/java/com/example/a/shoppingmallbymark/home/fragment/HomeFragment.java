@@ -41,6 +41,10 @@ public class HomeFragment extends BaseFragment {
 
     private ResultBeanData.ResultBean resultBean;//运用fastjson返回的数据
 
+    /**
+     *
+     * @return
+     */
     @Override
     public View initView() {
         Log.e(TAG, "主页视图被初始化了");

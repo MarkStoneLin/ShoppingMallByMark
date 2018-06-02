@@ -49,6 +49,11 @@ public class MainActivity extends FragmentActivity {
         //通过实例化设置首页为首页
     }
 
+
+    /**
+     * purpose:底框选择器
+     *
+     */
     private void initListener() {
         rgMain.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
