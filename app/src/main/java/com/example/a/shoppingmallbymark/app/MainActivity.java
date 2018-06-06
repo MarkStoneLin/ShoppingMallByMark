@@ -23,7 +23,6 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends FragmentActivity {
 
-
     @Bind(R.id.frameLayout)
     FrameLayout frameLayout;
 
