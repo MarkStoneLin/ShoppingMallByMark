@@ -1,7 +1,5 @@
 # Android商城
 
-[TOC]
-
 
 
 ## 1.Welcome页面的制作
