@@ -33,16 +33,17 @@ public abstract class BaseFragment extends Fragment {
         mContext = getActivity();
     }
 
-    /*
-    * 抽象类，由孩子实现
+    /**
+     * 当视图被创建的时候，回调
+    * 让子类去做，所以返回抽象initView
     * */
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return initView();
-    }
+    }/**/
 
-    public abstract View initView();
+    public abstract View initView();//抽象类，由孩子去实现，实现不同的效果
 
     /*
     * 当Activity被创建的时候回调这个方法
