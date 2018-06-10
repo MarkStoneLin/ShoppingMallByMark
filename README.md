@@ -54,5 +54,11 @@
 
 
 
+## 5.BaseFragment--基类Fragment
 
+- 作用：
+  - 给fragment画一个基本的框架，继承此fragment的类都需要照葫芦画瓢，按照这个标准去实现
+- 本程序的基类fragment
+  - 视图--先实现
+  - 数据--后实现
 
