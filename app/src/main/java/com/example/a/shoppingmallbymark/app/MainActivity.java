@@ -20,7 +20,13 @@ import java.util.ArrayList;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-
+/**
+ * 根据底部选择器，总共有5种fragment，
+ * 每种fragment在程序一开始就被初始化了，
+ * 只不过在MainActivity中，
+ * 通过监听事件，
+ * 对想要展示的fragment进行选择和隐藏
+ */
 public class MainActivity extends FragmentActivity {
 
     @Bind(R.id.frameLayout)
