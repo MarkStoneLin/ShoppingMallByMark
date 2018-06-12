@@ -74,7 +74,7 @@
 
 + 主页面的布局情况
 
-![img](file:///C:/Users/A/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png) 
+![img](https://github.com/MarkStoneLin/ShoppingMallByMark/blob/master/else/e-1.png) 
 
 
 
