@@ -70,9 +70,11 @@
 
 
 
+## 7.主页面的UI设计思路
 
++ 主页面的布局情况
 
-
+![img](file:///C:/Users/A/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png) 
 
 
 
